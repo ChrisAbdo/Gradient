@@ -19,7 +19,9 @@ export function UserDropdown() {
         <Button variant="ghost" className="relative h-8 w-8 rounded-full">
           <Avatar className="h-8 w-8">
             <AvatarImage
-              src={`http://localhost:3000/gen/${generateRandomString(10)}`}
+              src={`https://gradient.chrisabdo.dev/gen/${generateRandomString(
+                10
+              )}`}
               alt="ca"
             />
             <AvatarFallback>CA</AvatarFallback>

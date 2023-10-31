@@ -17,7 +17,9 @@ export default function BottomExamples() {
           {Array.from({ length: 5 }).map((_, index) => (
             <Avatar key={index}>
               <AvatarImage
-                src={`http://localhost:3000/gen/${generateRandomString(10)}`}
+                src={`https://gradient.chrisabdo.dev/gen/${generateRandomString(
+                  10
+                )}`}
               />
               <AvatarFallback>
                 <HeartFilledIcon />
@@ -34,7 +36,9 @@ export default function BottomExamples() {
           {Array.from({ length: 3 }).map((_, index) => (
             <img
               key={index}
-              src={`http://localhost:3000/gen/${generateRandomString(10)}`}
+              src={`https://gradient.chrisabdo.dev/gen/${generateRandomString(
+                10
+              )}`}
               className="w-[25%] h-auto rounded-md"
             />
           ))}

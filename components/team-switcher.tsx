@@ -97,7 +97,9 @@ export default function TeamSwitcher({ className }: TeamSwitcherProps) {
           >
             <Avatar className="mr-2 h-5 w-5">
               <AvatarImage
-                src={`http://localhost:3000/gen/${generateRandomString(10)}`}
+                src={`https://gradient.chrisabdo.dev/gen/${generateRandomString(
+                  10
+                )}`}
                 alt={selectedTeam.label}
               />
               <AvatarFallback>CA</AvatarFallback>
@@ -124,7 +126,7 @@ export default function TeamSwitcher({ className }: TeamSwitcherProps) {
                     >
                       <Avatar className="mr-2 h-5 w-5">
                         <AvatarImage
-                          src={`http://localhost:3000/gen/${generateRandomString(
+                          src={`https://gradient.chrisabdo.dev/gen/${generateRandomString(
                             10
                           )}`}
                           alt={team.label}
